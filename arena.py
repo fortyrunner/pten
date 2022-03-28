@@ -6,6 +6,7 @@ def get_arena_members():
     members.sort(key=lambda item: int(item.get("athlete_id")))
     return members
 
+
 def print_member_list(members):
     print(" There are ", len(members), " Arena 80 athletes")
     print("id,firstname,surname,age,sex")
